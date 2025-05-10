@@ -23,4 +23,7 @@ _Screenshot of the schedule from the web app_
 
 As is evident from the sample picture, the timetable outlines the schedule for class "4.B" for the upcoming week, notably showing Monday as unoccupied, potentially due to a holiday or the director's day off. Nonetheless, the functionality extends beyond this. As previously mentioned, the platform allows for the inclusion of homework assignments and notes for each specific lesson. Upon clicking on a lesson, users can access detailed descriptions, where students or teachers can input personal notes, while teachers typically append relevant tasks to the lesson. Furthermore, there is the flexibility to adjust or swap schedules based on various constraints, such as classroom availability.
 
+_Screenshot of generated database diagram_
+![screenshot](images/db_diagram.png)
+
 Finally, concerning the [database structure](structure.sql), while it served its purpose at the time, there are various potential enhancements to be considered. For instance, incorporating school holidays via a public API, storing and caching retrieved data would be more efficient than manually inputting these dates into the database.
